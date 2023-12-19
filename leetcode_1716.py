@@ -1,3 +1,4 @@
+# 1716. Calculate Money in Leetcode Bank
 class Solution:
     def totalMoney(self, n: int) -> int:
         ans = 0
