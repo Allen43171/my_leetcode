@@ -1,4 +1,4 @@
-# leetcode_1291.py
+# 1291. Sequential Digits
 class Solution:
     def sequentialDigits(self, low: int, high: int) -> List[int]:
         digit_one_to_nine = "123456789"
