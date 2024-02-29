@@ -1,0 +1,17 @@
+# 2161. Partition Array According to Given Pivot
+class Solution:
+    def pivotArray(self, nums: List[int], pivot: int) -> List[int]:
+        res_less = []
+        res_equal = []
+        res_more = []
+        for ele in nums:
+            if ele < pivot:
+                res_less.append(ele)
+            elif ele > pivot:
+                res_more.append(ele)
+            elif ele == pivot:
+                res_equal.append(ele)
+        res = res_less + res_equal + res_more
+
+        return res
+    
